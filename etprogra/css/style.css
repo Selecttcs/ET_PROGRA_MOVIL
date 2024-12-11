@@ -1,3 +1,8 @@
+body{
+    background-image: url(/img/carousel.jpg);
+    background-repeat: no-repeat;
+}
+
 .header{
     font-family: "Roboto", sans-serif;
     color: #ffff;
