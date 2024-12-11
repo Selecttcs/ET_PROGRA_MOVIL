@@ -55,11 +55,9 @@ function txtHiden(){
     }
 }
 
+
 Hidden();
-
 txtHiden();
-
-
 
 
 function Alerta(){
@@ -70,4 +68,5 @@ function Alerta(){
     timer: 3000
     });
 }
+
 
