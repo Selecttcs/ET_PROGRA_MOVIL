@@ -45,7 +45,19 @@ function Hidden(){
     }
 }
 
+function txtHiden(){
+    if (NombreDispositivo=="Escritorio") {
+        console.log('Dispositivo de escritorio')
+        document.getElementById("txtHide").hidden = false;
+    }else{
+        console.log('Dispositivo movil')
+        document.getElementById("txtHide").hidden = true;
+    }
+}
+
 Hidden();
+
+txtHiden();
 
 
 
